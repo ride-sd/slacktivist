@@ -1,6 +1,6 @@
 ---
 title: Make the 215 Faster
-recipientEmail:
+to:
   - RWilde@sandiego.gov
   - MayorToddGloria@sandiego.gov
   - ERHauser@sandiego.gov
@@ -11,7 +11,7 @@ recipientEmail:
   - stephenwhitburn@sandiego.gov
   - SeanEloRivera@sandiego.gov
   - sharon.cooney@sdmts.com
-description: Help us push for stronger climate action policies in our city
+bcc: campaigns@ridesd.org
 ---
 
 # Information
