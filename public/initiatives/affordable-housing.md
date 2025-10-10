@@ -1,13 +1,32 @@
 ---
 title: Increase Affordable Housing
-category: Housing
 deadline: 2025-11-15
 recipientEmail: housing.dept@example.gov
 recipientName: Housing Department
 description: Advocate for more affordable housing units in our community
 ---
 
-# Support Affordable Housing Development
+# Introduction
+
+Dear {{recipient}},
+
+I am writing to advocate for increased affordable housing development in our community.
+
+# The Problem
+
+The housing crisis affects working families, seniors, and young professionals who are being priced out of our neighborhoods.
+
+Rent prices have increased by over 40% in the past five years while wages remain stagnant. Families are spending more than half their income on housing, and essential workers cannot afford to live in the communities they serve.
+
+# Personal Experience
+
+{{personal_experience}}
+
+# Our Demands
+
+We call for the construction of 500 new affordable housing units over the next three years, rent stabilization measures, and incentives for developers who include affordable units.
+
+# Content
 
 Dear {{recipient}},
 

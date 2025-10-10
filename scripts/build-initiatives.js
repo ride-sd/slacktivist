@@ -25,10 +25,38 @@ const initiatives = files.map(file => {
 
   const slug = file.replace('.md', '');
 
+  // Parse content by H1 sections
+  const sections = {};
+  const lines = content.trim().split('\n');
+  let currentSection = null;
+  let currentContent = [];
+
+  for (const line of lines) {
+    if (line.startsWith('# ')) {
+      // Save previous section if exists
+      if (currentSection) {
+        sections[currentSection] = currentContent.join('\n').trim();
+      }
+      // Start new section
+      currentSection = line.substring(2).trim();
+      currentContent = [];
+    } else {
+      currentContent.push(line);
+    }
+  }
+
+  // Save the last section
+  if (currentSection) {
+    sections[currentSection] = currentContent.join('\n').trim();
+  }
+
+  // Remove category from metadata
+  const { category, ...metadataWithoutCategory } = data;
+
   return {
     slug,
-    metadata: data,
-    content: content.trim()
+    metadata: metadataWithoutCategory,
+    sections
   };
 });
 

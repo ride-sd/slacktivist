@@ -7,19 +7,22 @@
 
   let loading = true;
   let error = null;
-  let templateContent = '';
+  let sections = {};
   let editableContent = '';
   let metadata = {};
   let templateVariables = [];
   let formData = {};
 
-  // Extract variables from Handlebars template
-  function extractVariables(template) {
+  // Extract variables from all sections combined
+  function extractVariables(sections) {
     const regex = /\{\{([^}]+)\}\}/g;
     const variables = new Set();
+    
+    // Combine all section content to find variables
+    const allContent = Object.values(sections).join('\n');
     let match;
 
-    while ((match = regex.exec(template)) !== null) {
+    while ((match = regex.exec(allContent)) !== null) {
       const varName = match[1].trim();
       variables.add(varName);
     }
@@ -27,11 +30,13 @@
     return Array.from(variables);
   }
 
-  // Compile and render template with form data
+  // Compile and render the Content section template with form data
   function renderTemplate() {
     try {
-      const template = Handlebars.compile(templateContent);
-      editableContent = template(formData);
+      if (sections.Content) {
+        const template = Handlebars.compile(sections.Content);
+        editableContent = template(formData);
+      }
     } catch (err) {
       console.error('Template rendering error:', err);
     }
@@ -45,7 +50,7 @@
   }
 
   // Re-render template when form data changes
-  $: if (templateContent && Object.keys(formData).length > 0) {
+  $: if (sections.Content && Object.keys(formData).length > 0) {
     renderTemplate();
   }
 
@@ -66,10 +71,10 @@
       }
 
       metadata = initiative.metadata;
-      templateContent = initiative.content;
+      sections = initiative.sections;
 
-      // Extract variables from template
-      templateVariables = extractVariables(templateContent);
+      // Extract variables from all sections
+      templateVariables = extractVariables(sections);
 
       // Initialize form data
       templateVariables.forEach(varName => {
@@ -125,12 +130,6 @@
   {:else}
     <div class="card p-8 mb-8 animate-slide-up">
       <div class="flex flex-wrap items-center gap-4 mb-6">
-        <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold bg-gradient-to-r from-primary-500 to-secondary-500 text-white shadow-md">
-          <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-          </svg>
-          {metadata.category}
-        </span>
         <div class="flex items-center text-gray-600">
           <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
@@ -160,6 +159,36 @@
         </div>
       </div>
     </div>
+
+    <!-- Information Sections -->
+    {#if Object.keys(sections).length > 0}
+      <div class="card p-8 mb-8">
+        <div class="flex items-center mb-6">
+          <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold text-gray-900">Initiative Information</h2>
+            <p class="text-gray-600">Learn more about this advocacy initiative</p>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          {#each Object.entries(sections) as [sectionTitle, sectionContent]}
+            {#if sectionTitle !== 'Content'}
+              <div class="border-l-4 border-gray-200 pl-6 py-2">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">{sectionTitle}</h3>
+                <div class="text-gray-700 prose prose-sm max-w-none">
+                  {@html marked(sectionContent)}
+                </div>
+              </div>
+            {/if}
+          {/each}
+        </div>
+      </div>
+    {/if}
 
     <div class="card p-8 mb-8">
       {#if templateVariables.length > 0}
