@@ -7,81 +7,43 @@
   };
 </script>
 
-<main>
-  <header>
-    <div class="container">
-      <h1 class="logo">SoapCast</h1>
-      <p class="tagline">Make Your Voice Heard</p>
+<main class="min-h-screen flex flex-col">
+  <header class="bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white py-12 shadow-2xl relative overflow-hidden">
+    <!-- Background decoration -->
+    <div class="absolute inset-0 bg-black opacity-10"></div>
+    <div class="absolute -top-10 -right-10 w-32 h-32 bg-white opacity-5 rounded-full"></div>
+    <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-white opacity-5 rounded-full"></div>
+    
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="text-center animate-fade-in">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
+          SoapCast
+        </h1>
+        <p class="text-xl md:text-2xl opacity-90 font-light">
+          Make Your Voice Heard
+        </p>
+        <div class="mt-6 flex justify-center">
+          <div class="w-16 h-1 bg-white opacity-30 rounded-full"></div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <div class="container">
+  <div class="container mx-auto px-6 py-8 flex-1">
     <Router {routes} />
   </div>
 
-  <footer>
-    <div class="container">
-      <p>Powered by SoapCast - Amplifying civic engagement</p>
+  <footer class="bg-gray-900 text-white py-8 mt-16">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-gray-300 font-medium">
+        Powered by <span class="text-primary-400 font-semibold">SoapCast</span> - Amplifying civic engagement
+      </p>
+      <div class="mt-4 flex justify-center space-x-6 text-sm text-gray-400">
+        <span>Built for advocates</span>
+        <span>•</span>
+        <span>Made with ❤️</span>
+      </div>
     </div>
   </footer>
 </main>
 
-<style>
-  :global(body) {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
-  }
-
-  :global(*) {
-    box-sizing: border-box;
-  }
-
-  main {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-  header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2rem 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .logo {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-
-  .tagline {
-    margin: 0.5rem 0 0 0;
-    font-size: 1.1rem;
-    opacity: 0.9;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    flex: 1;
-  }
-
-  footer {
-    background-color: #2d3748;
-    color: white;
-    padding: 2rem 0;
-    margin-top: 4rem;
-    text-align: center;
-  }
-
-  footer p {
-    margin: 0;
-    opacity: 0.8;
-  }
-</style>
