@@ -149,39 +149,14 @@
         {metadata.description}
       </p>
 
-      <div class="bg-gray-50 rounded-lg p-4 border-l-4 border-primary-500">
-        <div class="flex items-center">
-          <svg class="w-6 h-6 text-primary-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-          </svg>
-          <div>
-            <p class="font-semibold text-gray-900">Recipient:</p>
-            <p class="text-gray-700">{metadata.to.join(', ')}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Information Section -->
-    {#if sections.Information}
-      <div class="card p-8 mb-8">
-        <div class="flex items-center mb-6">
-          <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
-            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-          </div>
-          <div>
-            <h2 class="text-2xl font-bold text-gray-900">Information</h2>
-            <p class="text-gray-600">Learn more about this advocacy initiative</p>
-          </div>
-        </div>
-
+      <!-- Information Section -->
+      {#if sections.Information}
         <div class="prose prose-lg max-w-none text-gray-700">
           {@html marked(sections.Information)}
         </div>
-      </div>
-    {/if}
+      {/if}
+
+    </div>
 
     <div class="card p-8 mb-8">
       {#if templateVariables.length > 0}

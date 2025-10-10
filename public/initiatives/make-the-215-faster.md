@@ -18,7 +18,7 @@ bcc: campaigns@ridesd.org
 
 The 215 rapid bus between SDSU and downtown is one of the highest ridership lines. But because of insufficient infrastructure the buses are always delayed and subject to traffic.
 
-Lets tell city council and MTS to do somthing about it!
+Lets tell city council and MTS to do something about it!
 
 # Content
 
