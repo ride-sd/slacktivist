@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { marked } from 'marked';
   import Handlebars from 'handlebars';
+  import { buildMailtoLink } from './utils/mailto.js';
 
   export let params = {};
 
@@ -104,25 +105,6 @@
     a.download = `${params.slug}-comment.txt`;
     a.click();
     URL.revokeObjectURL(url);
-  }
-
-  function buildMailtoLink({ to, subject, body, cc = null, bcc = null }) {
-    // Handle array of emails
-    const toEmails = Array.isArray(to) ? to.join(',') : to;
-
-    let mailto = `mailto:${toEmails}`;
-    const params = [];
-
-    if (subject) params.push(`subject=${encodeURIComponent(subject)}`);
-    if (body) params.push(`body=${encodeURIComponent(body)}`);
-    if (cc) params.push(`cc=${encodeURIComponent(Array.isArray(cc) ? cc.join(',') : cc)}`);
-    if (bcc) params.push(`bcc=${encodeURIComponent(Array.isArray(bcc) ? bcc.join(',') : bcc)}`);
-
-    if (params.length > 0) {
-      mailto += '?' + params.join('&');
-    }
-
-    return mailto;
   }
 
   $: htmlContent = editableContent ? marked(editableContent) : '';
