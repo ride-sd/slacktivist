@@ -6,25 +6,23 @@ recipientName: City Council
 description: Help us push for stronger climate action policies in our city
 ---
 
-# Introduction
+# Information
 
-Dear {{recipient}},
-
-I am writing to express my strong support for comprehensive climate action policies in our city.
-
-# The Challenge
+## The Challenge
 
 As a concerned resident, I believe we must take immediate action to address the climate crisis.
 
 Climate change affects our community today through extreme weather events and air quality concerns. Our city can lead by example and implement policies that reduce emissions, transition to renewable energy, and invest in sustainable infrastructure.
 
-# My Story
-
-{{personal_story}}
-
-# Our Vision
+## Our Vision
 
 I urge you to pass the Climate Action Plan, allocate funding for renewable energy projects, and establish clear accountability measures.
+
+## Resources
+
+- [Climate Action Plan](https://example.com/climate-plan)
+- [Renewable Energy Guide](https://example.com/renewable-guide)
+- [Community Climate Data](https://example.com/climate-data)
 
 # Content
 

@@ -17,7 +17,7 @@
   function extractVariables(sections) {
     const regex = /\{\{([^}]+)\}\}/g;
     const variables = new Set();
-    
+
     // Combine all section content to find variables
     const allContent = Object.values(sections).join('\n');
     let match;
@@ -129,24 +129,26 @@
     </div>
   {:else}
     <div class="card p-8 mb-8 animate-slide-up">
-      <div class="flex flex-wrap items-center gap-4 mb-6">
-        <div class="flex items-center text-gray-600">
-          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-          </svg>
-          <span class="font-medium">Deadline:</span>
-          <span class="ml-1">{new Date(metadata.deadline).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+      {#if metadata.deadline}
+        <div class="flex flex-wrap items-center gap-4 mb-6">
+          <div class="flex items-center text-gray-600">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <span class="font-medium">Deadline:</span>
+            <span class="ml-1">{new Date(metadata.deadline).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+          </div>
         </div>
-      </div>
-      
+      {/if}
+
       <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
         {metadata.title}
       </h1>
-      
+
       <p class="text-xl text-gray-600 mb-6 leading-relaxed">
         {metadata.description}
       </p>
-      
+
       <div class="bg-gray-50 rounded-lg p-4 border-l-4 border-primary-500">
         <div class="flex items-center">
           <svg class="w-6 h-6 text-primary-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -154,14 +156,14 @@
           </svg>
           <div>
             <p class="font-semibold text-gray-900">Recipient:</p>
-            <p class="text-gray-700">{metadata.recipientName} ({metadata.recipientEmail})</p>
+            <p class="text-gray-700">{metadata.recipientEmail.join(', ')}</p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Information Sections -->
-    {#if Object.keys(sections).length > 0}
+    <!-- Information Section -->
+    {#if sections.Information}
       <div class="card p-8 mb-8">
         <div class="flex items-center mb-6">
           <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
@@ -170,22 +172,13 @@
             </svg>
           </div>
           <div>
-            <h2 class="text-2xl font-bold text-gray-900">Initiative Information</h2>
+            <h2 class="text-2xl font-bold text-gray-900">Information</h2>
             <p class="text-gray-600">Learn more about this advocacy initiative</p>
           </div>
         </div>
 
-        <div class="space-y-6">
-          {#each Object.entries(sections) as [sectionTitle, sectionContent]}
-            {#if sectionTitle !== 'Content'}
-              <div class="border-l-4 border-gray-200 pl-6 py-2">
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">{sectionTitle}</h3>
-                <div class="text-gray-700 prose prose-sm max-w-none">
-                  {@html marked(sectionContent)}
-                </div>
-              </div>
-            {/if}
-          {/each}
+        <div class="prose prose-lg max-w-none text-gray-700">
+          {@html marked(sections.Information)}
         </div>
       </div>
     {/if}
@@ -246,7 +239,7 @@
             <p class="text-gray-600">Review and edit your comment before sending</p>
           </div>
         </div>
-        
+
         <div class="relative">
           <textarea
             bind:value={editableContent}

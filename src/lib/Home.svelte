@@ -35,8 +35,9 @@
     {#each initiatives as initiative}
       <a href="/initiative/{initiative.slug}" use:link class="initiative-card">
         <div class="card-header">
-          <span class="category-badge">{initiative.category}</span>
-          <span class="deadline">Deadline: {formatDate(initiative.deadline)}</span>
+          {#if initiative.deadline}
+            <span class="deadline">Deadline: {formatDate(initiative.deadline)}</span>
+          {/if}
         </div>
         <h3>{initiative.title}</h3>
         <p>{initiative.description}</p>
