@@ -16,7 +16,9 @@ description: Help us push for stronger climate action policies in our city
 
 # Information
 
-We want the 215 to be faster
+The 215 rapid bus between SDSU and downtown is one of the highest ridership lines. But because of insufficient infrastructure the buses are always delayed and subject to traffic.
+
+Lets tell city council and MTS to do somthing about it!
 
 # Content
 
