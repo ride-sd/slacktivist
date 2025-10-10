@@ -12,7 +12,7 @@
   let editableContent = '';
   let metadata = {};
   let templateVariables = [];
-  let formData = {};
+  const formData = {};
 
   // Extract variables from all sections combined
   function extractVariables(sections) {
@@ -106,8 +106,6 @@
     a.click();
     URL.revokeObjectURL(url);
   }
-
-  $: htmlContent = editableContent ? marked(editableContent) : '';
 </script>
 
 <div class="py-8 animate-fade-in">

@@ -10,13 +10,21 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "lint": "eslint . --ext .js,.svelte",
+    "lint:fix": "eslint . --ext .js,.svelte --fix"
   },
   "devDependencies": {
+    "@eslint/js": "^9.37.0",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/svelte": "^5.2.8",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
     "autoprefixer": "^10.4.21",
+    "eslint": "^9.37.0",
+    "eslint-plugin-svelte": "^3.12.4",
+    "globals": "^16.4.0",
     "gray-matter": "^4.0.3",
     "jsdom": "^27.0.0",
     "marked": "^16.4.0",
