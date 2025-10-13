@@ -1,9 +1,11 @@
 <script>
   import Router from 'svelte-spa-router';
+  import Home from './lib/Home.svelte';
   import InitiativeView from './lib/InitiativeView.svelte';
 
   const routes = {
-    '/:slug': InitiativeView,
+    '/': Home,
+    '/initiative/:slug': InitiativeView,
   };
 </script>
 
@@ -13,7 +15,7 @@
     <div class="absolute inset-0 bg-black opacity-10"></div>
     <div class="absolute -top-10 -right-10 w-32 h-32 bg-white opacity-5 rounded-full"></div>
     <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-white opacity-5 rounded-full"></div>
-    
+
     <div class="container mx-auto px-6 relative z-10">
       <div class="text-center animate-fade-in">
         <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
