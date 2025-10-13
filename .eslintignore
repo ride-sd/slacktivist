@@ -1,6 +1,0 @@
-dist/
-build/
-node_modules/
-.svelte-kit/
-public/data/
-scripts/build-initiatives.js

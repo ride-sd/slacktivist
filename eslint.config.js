@@ -6,6 +6,15 @@ export default [
   js.configs.recommended,
   ...svelte.configs['flat/recommended'],
   {
+    ignores: [
+      'dist/',
+      'build/',
+      'node_modules/',
+      '.svelte-kit/',
+      'public/data/'
+    ]
+  },
+  {
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
