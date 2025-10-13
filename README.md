@@ -1,6 +1,6 @@
-# Svelte + Vite
+# Slacktivist
 
-This template should help get you started developing with Svelte in Vite.
+A civic engagement platform that helps citizens submit public comments on local initiatives and government proposals. Built with Svelte and Vite.
 
 ## Recommended IDE Setup
 
