@@ -19,7 +19,7 @@
     <div class="container mx-auto px-6 relative z-10">
       <div class="text-center animate-fade-in">
         <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
-          SoapCast
+          Slacktivist
         </h1>
         <p class="text-xl md:text-2xl opacity-90 font-light">
           Make Your Voice Heard
@@ -38,7 +38,7 @@
   <footer class="bg-gray-900 text-white py-8 mt-16">
     <div class="container mx-auto px-6 text-center">
       <p class="text-gray-300 font-medium">
-        Powered by <span class="text-primary-400 font-semibold">SoapCast</span> - Amplifying civic engagement
+        Powered by <span class="text-primary-400 font-semibold">Slacktivist</span> - Amplifying civic engagement
       </p>
       <div class="mt-4 flex justify-center space-x-6 text-sm text-gray-400">
         <span>Built for advocates</span>
