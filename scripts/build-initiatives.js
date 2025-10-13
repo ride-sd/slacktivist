@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -50,12 +52,9 @@ const initiatives = files.map(file => {
     sections[currentSection] = currentContent.join('\n').trim();
   }
 
-  // Remove category from metadata
-  const { category, ...metadataWithoutCategory } = data;
-
   return {
     slug,
-    metadata: metadataWithoutCategory,
+    metadata: data,
     sections
   };
 });
