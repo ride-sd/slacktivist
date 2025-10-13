@@ -12,12 +12,13 @@
   let editableContent = '';
   let metadata = {};
   let templateVariables = [];
+  let templateError = null;
   const formData = {};
 
   // Extract variables from all sections combined
   function extractVariables(sections) {
     const regex = /\{\{([^}]+)\}\}/g;
-    const variables = new Set();
+    const variables = [];
 
     // Combine all section content to find variables
     const allContent = Object.values(sections).join('\n');
@@ -25,21 +26,26 @@
 
     while ((match = regex.exec(allContent)) !== null) {
       const varName = match[1].trim();
-      variables.add(varName);
+      if (!variables.includes(varName)) {
+        variables.push(varName);
+      }
     }
 
-    return Array.from(variables);
+    return variables;
   }
 
   // Compile and render the Content section template with form data
   function renderTemplate() {
     try {
+      templateError = null; // Clear previous errors
       if (sections.Content) {
         const template = Handlebars.compile(sections.Content);
         editableContent = template(formData);
       }
     } catch (err) {
-      console.error('Template rendering error:', err);
+      templateError = `Template rendering failed: ${err.message}`;
+      // Fallback to raw content
+      editableContent = sections.Content || 'Content not available';
     }
   }
 
@@ -151,6 +157,7 @@
       <!-- Information Section -->
       {#if sections.Information}
         <div class="prose prose-lg max-w-none text-gray-700">
+          <!-- eslint-disable-next-line svelte/no-at-html-tags -->
           {@html marked(sections.Information)}
         </div>
       {/if}
@@ -173,7 +180,7 @@
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {#each templateVariables as varName}
+            {#each templateVariables as varName (varName)}
               <div class="space-y-2">
                 <label for={varName} class="block text-sm font-semibold text-gray-700">
                   {varName.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
@@ -213,6 +220,18 @@
             <p class="text-gray-600">Review and edit your comment before sending</p>
           </div>
         </div>
+
+        {#if templateError}
+          <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+              </svg>
+              <span class="text-yellow-800 font-medium">Template Warning:</span>
+            </div>
+            <p class="text-yellow-700 mt-1 text-sm">{templateError}</p>
+          </div>
+        {/if}
 
         <div class="relative">
           <textarea

@@ -32,7 +32,7 @@
   </section>
 
   <div class="initiatives-grid">
-    {#each initiatives as initiative}
+    {#each initiatives as initiative (initiative.slug)}
       <a href="/initiative/{initiative.slug}" use:link class="initiative-card">
         <div class="card-header">
           {#if initiative.deadline}
