@@ -171,7 +171,7 @@
         </div>
       {/if}
 
-      <div class="{metadata.logo ? 'pr-32' : ''}">
+      <div class:pr-32={metadata.logo}>
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
           {metadata.title}
         </h1>
