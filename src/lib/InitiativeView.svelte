@@ -133,7 +133,32 @@
       <p class="text-red-600">{error}</p>
     </div>
   {:else}
-    <div class="card p-8 mb-8 animate-slide-up">
+    <div class="card p-8 mb-8 animate-slide-up relative">
+      {#if metadata.logo}
+        <div class="absolute top-6 right-6">
+          {#if metadata.logo_url}
+            <a
+              href={metadata.logo_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/logos/{metadata.logo}"
+                alt="Organization logo"
+                class="w-24 h-auto max-w-full object-contain"
+              />
+            </a>
+          {:else}
+            <img
+              src="/logos/{metadata.logo}"
+              alt="Organization logo"
+              class="w-24 h-auto max-w-full object-contain"
+            />
+          {/if}
+        </div>
+      {/if}
+
       {#if metadata.deadline}
         <div class="flex flex-wrap items-center gap-4 mb-6">
           <div class="flex items-center text-gray-600">
@@ -146,21 +171,23 @@
         </div>
       {/if}
 
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-        {metadata.title}
-      </h1>
+      <div class:pr-32={metadata.logo}>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+          {metadata.title}
+        </h1>
 
-      <p class="text-xl text-gray-600 mb-6 leading-relaxed">
-        {metadata.description}
-      </p>
+        <p class="text-xl text-gray-600 mb-6 leading-relaxed">
+          {metadata.description}
+        </p>
 
-      <!-- Information Section -->
-      {#if sections.Information}
-        <div class="prose prose-lg max-w-none text-gray-700">
-          <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-          {@html marked(sections.Information)}
-        </div>
-      {/if}
+        <!-- Information Section -->
+        {#if sections.Information}
+          <div class="prose prose-lg max-w-none text-gray-700">
+            <!-- eslint-disable-next-line svelte/no-at-html-tags -->
+            {@html marked(sections.Information)}
+          </div>
+        {/if}
+      </div>
 
     </div>
 
