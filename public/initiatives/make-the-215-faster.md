@@ -2,6 +2,7 @@
 title: Make the 215 Faster
 subject: Make the 215 a Truly Rapid Bus
 logo: bike_sd_square.jpg
+logo_url: https://bikesd.org
 to:
   - RWilde@sandiego.gov
   - MayorToddGloria@sandiego.gov

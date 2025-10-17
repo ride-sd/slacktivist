@@ -136,11 +136,26 @@
     <div class="card p-8 mb-8 animate-slide-up relative">
       {#if metadata.logo}
         <div class="absolute top-6 right-6">
-          <img
-            src="/logos/{metadata.logo}"
-            alt="Organization logo"
-            class="w-24 h-auto max-w-full object-contain"
-          />
+          {#if metadata.logo_url}
+            <a
+              href={metadata.logo_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/logos/{metadata.logo}"
+                alt="Organization logo"
+                class="w-24 h-auto max-w-full object-contain"
+              />
+            </a>
+          {:else}
+            <img
+              src="/logos/{metadata.logo}"
+              alt="Organization logo"
+              class="w-24 h-auto max-w-full object-contain"
+            />
+          {/if}
         </div>
       {/if}
 
