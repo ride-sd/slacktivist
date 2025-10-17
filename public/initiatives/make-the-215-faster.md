@@ -12,7 +12,7 @@ to:
   - stephenwhitburn@sandiego.gov
   - SeanEloRivera@sandiego.gov
   - sharon.cooney@sdmts.com
-bcc: campaigns@ridesd.org
+bcc: campaigns@bikesd.org
 ---
 
 # Information
