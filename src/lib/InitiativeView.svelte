@@ -289,6 +289,8 @@
         <a
           href={buildMailtoLink({
             to: metadata.to,
+            cc: metadata.cc,
+            bcc: metadata.bcc,
             subject: metadata.subject,
             body: editableContent
           })}
