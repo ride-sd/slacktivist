@@ -1,6 +1,6 @@
 ---
-title: Heavy Rail for the Purple Line
-subject: "Restore the Full Purple Line from San Ysidro to Sorrento Valley"
+title: Restore the Full Purple Line and Make it Fast
+subject: Restore the Full Purple Line from San Ysidro to Sorrento Valley
 logo: ride_sd_full.png
 logo_url: https://www.ridesd.org
 to:
