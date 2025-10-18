@@ -1,4 +1,4 @@
-# Slacktivist 📢# Slacktivist
+# Slacktivist 📢
 
 **Make your voice heard in local government.**A civic engagement platform that helps citizens submit public comments on local initiatives and government proposals. Built with Svelte and Vite.
 
@@ -80,7 +80,7 @@ Want to add a new local initiative or proposal? Follow these steps to contribute
 
 Create a new markdown file in the `public/initiatives/` directory. Use this naming convention:
 - Use lowercase letters and hyphens: `my-initiative-name.md`
-- Be descriptive but concise: `downtown-parking-meter-expansion.md`
+- Be descriptive but concise: `city-budget-public-input.md`
 
 ### Step 2: Structure Your Initiative File
 
@@ -245,5 +245,7 @@ MIT License - see LICENSE file for details.
 ## 🤝 Contributing
 
 We welcome contributions! Whether you're adding new initiatives, fixing bugs, or improving the user experience, your help makes local democracy more accessible.
+
+**Want to add a new initiative?** See our [Contributing Guide](CONTRIBUTING.md) for step-by-step instructions on using the initiative template and submitting a pull request.
 
 **Questions?** Open an issue or reach out to the maintainers.
