@@ -4,7 +4,6 @@ subject: "Restore the Full Purple Line from San Ysidro to Sorrento Valley"
 logo: ride_sd_full.png
 logo_url: https://www.ridesd.org
 to:
-  - purpleline@sandag.org
   - clerkoftheboard@sandag.org
   - mario.orso@sandag.org
   - kevin.shin@sandag.org
@@ -28,6 +27,8 @@ to:
   - lesa.heebner@sandag.org
   - john.minto@sandag.org
   - rebecca.jones@sandag.org
+cc:
+  - purpleline@sandag.org
 bcc:
   - campaigns@ridesd.org
 ---
