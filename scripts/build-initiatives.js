@@ -17,8 +17,10 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// Read all markdown files
-const files = fs.readdirSync(initiativesDir).filter(file => file.endsWith('.md'));
+// Read all markdown files (excluding templates that start with underscore)
+const files = fs.readdirSync(initiativesDir).filter(file => 
+  file.endsWith('.md') && !file.startsWith('_')
+);
 
 const initiatives = files.map(file => {
   const filePath = path.join(initiativesDir, file);
