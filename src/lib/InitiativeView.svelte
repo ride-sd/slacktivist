@@ -104,34 +104,32 @@
   }
 
   function buildGmailLink({ to, cc, bcc, subject, body }) {
-    const params = new URLSearchParams();
-    params.set('view', 'cm');
-    params.set('fs', '1');
+    const params = ['view=cm', 'fs=1'];
 
     if (to) {
       const toEmails = Array.isArray(to) ? to.join(',') : to;
-      params.set('to', toEmails);
+      params.push(`to=${encodeURIComponent(toEmails)}`);
     }
 
     if (cc) {
       const ccEmails = Array.isArray(cc) ? cc.join(',') : cc;
-      params.set('cc', ccEmails);
+      params.push(`cc=${encodeURIComponent(ccEmails)}`);
     }
 
     if (bcc) {
       const bccEmails = Array.isArray(bcc) ? bcc.join(',') : bcc;
-      params.set('bcc', bccEmails);
+      params.push(`bcc=${encodeURIComponent(bccEmails)}`);
     }
 
     if (subject) {
-      params.set('su', subject);
+      params.push(`su=${encodeURIComponent(subject)}`);
     }
 
     if (body) {
-      params.set('body', body);
+      params.push(`body=${encodeURIComponent(body)}`);
     }
 
-    return `https://mail.google.com/mail/?${params.toString()}`;
+    return `https://mail.google.com/mail/?${params.join('&')}`;
   }
 </script>
 
