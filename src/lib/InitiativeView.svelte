@@ -102,6 +102,35 @@
     navigator.clipboard.writeText(editableContent);
     alert('Comment text copied to clipboard!');
   }
+
+  function buildGmailLink({ to, cc, bcc, subject, body }) {
+    const params = ['view=cm', 'fs=1'];
+
+    if (to) {
+      const toEmails = Array.isArray(to) ? to.join(',') : to;
+      params.push(`to=${encodeURIComponent(toEmails)}`);
+    }
+
+    if (cc) {
+      const ccEmails = Array.isArray(cc) ? cc.join(',') : cc;
+      params.push(`cc=${encodeURIComponent(ccEmails)}`);
+    }
+
+    if (bcc) {
+      const bccEmails = Array.isArray(bcc) ? bcc.join(',') : bcc;
+      params.push(`bcc=${encodeURIComponent(bccEmails)}`);
+    }
+
+    if (subject) {
+      params.push(`su=${encodeURIComponent(subject)}`);
+    }
+
+    if (body) {
+      params.push(`body=${encodeURIComponent(body)}`);
+    }
+
+    return `https://mail.google.com/mail/?${params.join('&')}`;
+  }
 </script>
 
 <div class="py-8 animate-fade-in">
@@ -270,6 +299,23 @@
           </svg>
           Copy to Clipboard
         </button>
+        <a
+          href={buildGmailLink({
+            to: metadata.to,
+            cc: metadata.cc,
+            bcc: metadata.bcc,
+            subject: metadata.subject,
+            body: editableContent
+          })}
+          class="btn-secondary flex items-center justify-center"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+          </svg>
+          Send via Gmail
+        </a>
         <a
           href={buildMailtoLink({
             to: metadata.to,
