@@ -77,4 +77,4 @@ Sincerely,
 
 {{name}}
 
-{{address}}
+ZIP Code: {{zip_code}}
