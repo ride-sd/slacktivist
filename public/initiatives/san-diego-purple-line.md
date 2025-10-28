@@ -7,7 +7,7 @@ to:
   - clerkoftheboard@sandag.org
   - mario.orso@sandag.org
   - kevin.shin@carlsbadca.gov
-  - District1@chulavistaca.gov
+  - cchavez@chulavistaca.gov
   - jduncan@coronado.ca.us
   - tgaasterland@delmar.ca.us
   - bwells@elcajon.gov
