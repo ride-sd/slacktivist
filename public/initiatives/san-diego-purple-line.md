@@ -6,27 +6,27 @@ logo_url: https://www.ridesd.org
 to:
   - clerkoftheboard@sandag.org
   - mario.orso@sandag.org
-  - kevin.shin@sandag.org
-  - carolina.chavez@sandag.org
-  - john.duncan@sandag.org
-  - terry.gaasterland@sandag.org
-  - bill.wells@sandag.org
-  - bruce.ehlers@sandag.org
-  - dane.white@sandag.org
-  - jack.fisher@sandag.org
-  - mark.arapostathis@sandag.org
-  - alysson.snow@sandag.org
-  - luz.molina@sandag.org
-  - esther.sanchez@sandag.org
-  - steve.vaus@sandag.org
-  - todd.gloria@sandag.org
-  - kent.lee@sandag.org
-  - joe.lacava@sandag.org
-  - paloma.aguirre@sandag.org
-  - katie.melendez@sandag.org
-  - lesa.heebner@sandag.org
-  - john.minto@sandag.org
-  - rebecca.jones@sandag.org
+  - kevin.shin@carlsbadca.gov
+  - District1@chulavistaca.gov
+  - jduncan@coronado.ca.us
+  - tgaasterland@delmar.ca.us
+  - bwells@elcajon.gov
+  - behlers@encinitasca.gov
+  - jack.fisher@imperialbeachca.gov
+  - marapostathis@cityoflamesa.gov
+  - asnow@lemongrove.ca.gov
+  - lmolina@nationalcityca.gov
+  - esanchez@oceansideca.org
+  - svaus@poway.org
+  - mayortoddgloria@sandiego.gov
+  - KentLee@sandiego.gov
+  - joelacava@sandiego.gov
+  - District1community@sdcounty.ca.gov
+  - kmelendez@vista.gov
+  - lheebner@cosb.org
+  - jminto@cityofsanteeca.gov
+  - rjones@san-marcos.net
+
 cc:
   - purpleline@sandag.org
 bcc:
