@@ -1,6 +1,8 @@
 # Slacktivist 📢
 
-**Make your voice heard in local government.**A civic engagement platform that helps citizens submit public comments on local initiatives and government proposals. Built with Svelte and Vite.
+**Make your voice heard in local government.**
+
+A civic engagement platform that helps citizens submit public comments on local initiatives and government proposals. Built with Svelte and Vite.
 
 Slacktivist is a civic engagement platform that makes it easy for citizens to participate in local democracy by submitting public comments on initiatives and government proposals. Instead of struggling with complex government websites or missing important deadlines, Slacktivist provides a streamlined interface to draft, personalize, and submit your comments directly to the appropriate officials.## Recommended IDE Setup
 
