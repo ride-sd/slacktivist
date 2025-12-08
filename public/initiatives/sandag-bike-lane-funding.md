@@ -1,6 +1,6 @@
 ---
 title: Ask SANDAG to Fund Uptown Bicycle Projects
-subject: Request for Support: Funding and Delivery of EAP Projects Critical to Vision Zero & Climate Goals
+subject: "Request for Support: Funding and Delivery of EAP Projects Critical to Vision Zero & Climate Goals"
 logo: bike_sd_square.jpg
 logo_url: https://bikesd.org
 to:
