@@ -20,7 +20,7 @@ bcc:
 
 Dear Councilmember Whitburn,
 
-I am writing to request your support in ensuring several long-delayed bicycle and pedestrian projects—originally funded in SANDAG’s 2013 Early Action Program—receive the funding and prioritization necessary to advance. Most of these projects lie within your district, yet they were not included in SANDAG’s recently adopted project delivery strategies.
+I am writing to request your support in ensuring several long-delayed bicycle and pedestrian projects—originally funded in SANDAG’s 2013 Early Action Program—receive the funding and prioritization necessary to advance. Most of these projects lie within your district, yet they were recommended for “holds on construction funds” or not included at all in SANDAG’s recently adopted project delivery strategy.
 
 Some projects face administrative barriers such as unresolved temporary construction easements, while Mission Hills/Old Town still lacks construction funding and may require up to $10 million. Two EAP projects have been omitted entirely. These projects already received ATP funding and were promised to the community more than a decade ago.
 

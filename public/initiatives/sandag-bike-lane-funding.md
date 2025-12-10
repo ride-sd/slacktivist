@@ -24,24 +24,23 @@ bcc:
 
 # Information
 
-The 215 rapid bus between SDSU and downtown is one of the highest ridership lines. But because of insufficient infrastructure the buses are always delayed and subject to traffic.
-
-Lets tell city council and MTS to do something about it!
+*Insert Summary of Campaign*
 
 # Content
 
 Dear SANDAG Chair and Board Members,
 
-I am writing to express serious concern that several bicycle and pedestrian projects originally approved in SANDAG’s 2013 Early Action Program are now at risk of further delay. Despite receiving TransNet EAP and ATP funding, these projects were omitted from the recently adopted project delivery strategies, leaving key safety and mobility improvements without a path to completion.
+I am writing to express serious concern that several bicycle and pedestrian projects originally approved in SANDAG’s 2013 Early Action Program are now at risk of further delay. Despite receiving TransNet EAP and ATP funding, these projects were omitted from the recently-adopted project delivery strategies, leaving key safety and mobility improvements without a path to completion.
 
-Some projects—such as the Robinson segment—are stalled due to unresolved temporary construction easements, while Mission Hills/Old Town still lacks construction funding and may require up to $10 million. Two EAP projects are missing from the program entirely.
+Some projects — such as the Robinson segment—are fully designed but stalled for years and being held back from construction , while Mission Hills/Old Town still lacks construction funding, both leave unsafe gaps in the expanding network. Two EAP projects—Pacific Highway and South Bay to Southeastern—are missing from the project delivery strategy entirely.
 
 After more than a decade, further delay is unacceptable. These projects are essential to advancing the region’s Vision Zero, Climate Action Plan, and mode-shift commitments. Without them, SANDAG cannot meet the safety, climate, and mobility outcomes it has pledged to deliver.
+
 We respectfully request that SANDAG:
 
-1. Fully fund all remaining 2013 EAP projects, including Mission Hills/Old Town.
-2. Expedite delivery for projects stalled due to administrative or easement challenges.
-3. Restore the two missing EAP projects to the active program and commit to timely construction.
+1. Fully fund all remaining 2013 EAP projects.
+2. Expedite delivery for these remaining projects.
+3. Restore the two missing EAP projects to the delivery program and commit to timely construction.
 
 
 Please act now to uphold the commitments made to our communities and ensure these long-delayed projects finally move forward.
