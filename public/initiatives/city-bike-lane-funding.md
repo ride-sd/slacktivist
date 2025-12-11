@@ -14,7 +14,9 @@ bcc:
 
 # Information
 
-*Insert Summary of Campaign*
+Fully fund and finish the SANDAG Bikeways Early Action Program (EAP) approved in 2013.
+
+SANDAG recently presented a proposed project delivery strategy which withholds construction funding for 2 projects and omits a delivery strategy for 2 more. Request SANDAG make the funding and delivery commitments to complete the EAP!
 
 # Content
 
@@ -22,9 +24,10 @@ Dear Councilmember Whitburn,
 
 I am writing to request your support in ensuring several long-delayed bicycle and pedestrian projects—originally funded in SANDAG’s 2013 Early Action Program—receive the funding and prioritization necessary to advance. Most of these projects lie within your district, yet they were recommended for “holds on construction funds” or not included at all in SANDAG’s recently adopted project delivery strategy.
 
-Some projects face administrative barriers such as unresolved temporary construction easements, while Mission Hills/Old Town still lacks construction funding and may require up to $10 million. Two EAP projects have been omitted entirely. These projects already received ATP funding and were promised to the community more than a decade ago.
+Some projects — such as the Robinson segment—are fully designed but stalled for years and being held back from construction. The Mission Hills/Old Town segments still lack full funding, both of these projects are critical to connect the Uptown and North Park Mid-City projects. Another two EAP projects—Pacific Highway and South Bay to Southeastern—are missing from the project delivery strategy completely. These projects already received ATP funding and were promised to the community more than a decade ago.
 
 Delivering them is crucial to meeting the City’s and region’s Vision Zero, Climate Action Plan, and mode-shift goals. Every year of delay undermines safety, sustainability, and mobility commitments.
+
 We ask that you:
 
 1. Advocate for SANDAG to fully fund and deliver every remaining 2013 EAP project.

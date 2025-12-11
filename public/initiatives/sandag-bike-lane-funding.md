@@ -24,7 +24,7 @@ bcc:
 
 # Information
 
-*Insert Summary of Campaign*
+SANDAG recently presented a proposed project delivery strategy which withholds construction funding for 2 projects and omits a delivery strategy for 2 more. Request SANDAG make the funding and delivery commitments to complete the EAP!
 
 # Content
 
