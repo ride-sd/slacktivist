@@ -39,19 +39,19 @@
         <h3 class="text-lg font-semibold text-gray-900 mb-3">How to Contribute:</h3>
         <ul class="space-y-2 text-gray-700">
           <li class="flex items-start">
-            <span class="inline-block w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 flex items-center justify-center">1</span>
+            <span class="flex w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 items-center justify-center">1</span>
             Copy our initiative template with all the required fields
           </li>
           <li class="flex items-start">
-            <span class="inline-block w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 flex items-center justify-center">2</span>
+            <span class="flex w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 items-center justify-center">2</span>
             Fill in the details about the initiative and create a comment template
           </li>
           <li class="flex items-start">
-            <span class="inline-block w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 flex items-center justify-center">3</span>
+            <span class="flex w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 items-center justify-center">3</span>
             Test it locally to make sure everything works correctly
           </li>
           <li class="flex items-start">
-            <span class="inline-block w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 flex items-center justify-center">4</span>
+            <span class="flex w-6 h-6 bg-primary-100 text-primary-600 rounded-full text-sm font-semibold mr-3 mt-0.5 items-center justify-center">4</span>
             Submit a pull request with your new initiative
           </li>
         </ul>
