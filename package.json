@@ -27,7 +27,7 @@
     "globals": "^16.4.0",
     "gray-matter": "^4.0.3",
     "jsdom": "^27.2.0",
-    "marked": "^16.4.0",
+    "marked": "^17.0.1",
     "postcss": "^8.5.6",
     "svelte": "^5.45.8",
     "tailwindcss": "^3.4.18",
