@@ -33,7 +33,6 @@ I am writing to express support for several bicycle and pedestrian projects orig
 - Uptown Bikeways: Mission Hills and Old Town Bikeways
 - Inland Rail Trail: Phase 4
 
-
 Another two EAP projects—Pacific Highway and South Bay to Southeastern—are missing from the project delivery strategy entirely and require a commitment from SANDAG to complete. All of these projects improve currently  dangerous gaps where it’s unsafe to walk, drive, or ride. Without improvements people like me are forced to continue using these unsafe routes or dangerous alternatives that will result in preventable injuries and deaths.
 
 After more than a decade, further delay is unacceptable. These projects are essential to advancing the region’s Vision Zero, Climate Action Plans, and mode-shift commitments. Without them, SANDAG cannot meet the safety, greenhouse gas reduction, and mobility outcomes it has pledged to deliver.
