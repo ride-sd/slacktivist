@@ -1,12 +1,7 @@
 <script>
-  import Router from 'svelte-spa-router';
+  import { Router, Route } from 'svelte-routing';
   import Home from './lib/Home.svelte';
   import InitiativeView from './lib/InitiativeView.svelte';
-
-  const routes = {
-    '/': Home,
-    '/initiative/:slug': InitiativeView,
-  };
 </script>
 
 <main class="min-h-screen flex flex-col">
@@ -32,7 +27,14 @@
   </header>
 
   <div class="container mx-auto px-6 py-8 flex-1">
-    <Router {routes} />
+    <Router>
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/initiative/:slug" let:params>
+        <InitiativeView {params} />
+      </Route>
+    </Router>
   </div>
 
   <footer class="bg-gray-900 text-white py-8 mt-16">

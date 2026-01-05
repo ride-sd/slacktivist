@@ -1,5 +1,5 @@
 <script>
-  import { link } from 'svelte-spa-router';
+  import { link } from 'svelte-routing';
 </script>
 
 <div class="py-8">
