@@ -7,7 +7,6 @@ to:
   - mario.orso@sandag.org
   - lheebner@cosb.org
   - joelacava@sandiego.gov
-  - Minto2ndViceChair@sandag.org
   - cchavez@chulavistaca.gov
   - lmolina@nationalcityca.gov
   - District1community@sdcounty.ca.gov
