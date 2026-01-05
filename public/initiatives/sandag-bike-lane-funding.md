@@ -9,15 +9,9 @@ to:
   - joelacava@sandiego.gov
   - Minto2ndViceChair@sandag.org
   - cchavez@chulavistaca.gov
-  - jpreciado@chulavistaca.gov
-  - cfernandez@chulavistaca.gov
   - lmolina@nationalcityca.gov
-  - kgenesi@nationalcityca.gov
-  - mbush@nationalcityca.gov
-  - jrodriguez@nationalcityca.gov
   - District1community@sdcounty.ca.gov
-  - HenryFoster@sandiego.gov
-
+  - kmelendez@vista.gov
 bcc:
   - campaigns@bikesd.org
 ---
@@ -28,22 +22,25 @@ SANDAG recently presented a proposed project delivery strategy which withholds c
 
 # Content
 
-Dear SANDAG Chair and Board Members,
+Dear SANDAG Chair, Vice Chairs, Members, and Leaderships,
 
-I am writing to express serious concern that several bicycle and pedestrian projects originally approved in SANDAG’s 2013 Early Action Program are now at risk of further delay. Despite receiving TransNet EAP and ATP funding, these projects were omitted from the recently-adopted project delivery strategies, leaving key safety and mobility improvements without a path to completion.
+I am writing to express support for several bicycle and pedestrian projects originally approved in SANDAG’s 2013 Early Action Program. The proposed project delivery strategy details a path to completion for these key safety and mobility improvements, but they all must be fully funded through construction as the urgent need for these projects cannot be overstated; they must be the highest priority.
 
-Some projects — such as the Robinson segment—are fully designed but stalled for years and being held back from construction , while Mission Hills/Old Town still lacks construction funding, both leave unsafe gaps in the expanding network. Two EAP projects—Pacific Highway and South Bay to Southeastern—are missing from the project delivery strategy entirely.
-
-After more than a decade, further delay is unacceptable. These projects are essential to advancing the region’s Vision Zero, Climate Action Plan, and mode-shift commitments. Without them, SANDAG cannot meet the safety, climate, and mobility outcomes it has pledged to deliver.
-
-We respectfully request that SANDAG:
-
-1. Fully fund all remaining 2013 EAP projects.
-2. Expedite delivery for these remaining projects.
-3. Restore the two missing EAP projects to the delivery program and commit to timely construction.
+- Coastal Rail Trail Encinitas: E St to Chesterfield Dr
+- North Park/Mid-City Bikeways: Robinson Bikeway
+- Bayshore Bikeway: Barrio Logan
+- North Park/Mid-City Bikeways: Howard Bikeway
+- Uptown Bikeways: Mission Hills and Old Town Bikeways
+- Inland Rail Trail: Phase 4
 
 
-Please act now to uphold the commitments made to our communities and ensure these long-delayed projects finally move forward.
+Another two EAP projects—Pacific Highway and South Bay to Southeastern—are missing from the project delivery strategy entirely and require a commitment from SANDAG to complete. All of these projects improve currently  dangerous gaps where it’s unsafe to walk, drive, or ride. Without improvements people like me are forced to continue using these unsafe routes or dangerous alternatives that will result in preventable injuries and deaths.
+
+After more than a decade, further delay is unacceptable. These projects are essential to advancing the region’s Vision Zero, Climate Action Plans, and mode-shift commitments. Without them, SANDAG cannot meet the safety, greenhouse gas reduction, and mobility outcomes it has pledged to deliver.
+
+Every completed EAP project is reducing injuries and saving lives by providing safe and sustainable transportation alternatives. It’s exciting to see continued progress, but communities have been waiting since 2013 for these projects to safely connect. The FY 2027 budget must fully fund any shortfalls to complete these EAP projects.
+
+We respectfully request that SANDAG fully fund and prioritize delivery of these EAP projects.
 
 Best,
 
