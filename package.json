@@ -23,7 +23,7 @@
     "@typescript-eslint/parser": "^8.49.0",
     "autoprefixer": "^10.4.21",
     "baseline-browser-mapping": "^2.9.11",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-svelte": "^3.13.1",
     "globals": "^16.4.0",
     "gray-matter": "^4.0.3",
