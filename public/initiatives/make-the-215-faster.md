@@ -35,6 +35,7 @@ to:
   - Rosao@sandiego.gov
 bcc:
   - campaigns@bikesd.org
+  - campaigns@ridesd.org
 ---
 
 # Information
