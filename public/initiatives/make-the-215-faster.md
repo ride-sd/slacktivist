@@ -1,6 +1,6 @@
 ---
 title: Finish the Rapid 215
-subject: Finish the Rapid 215--Make San Diego’s Busiest Bus Line Truly Rapid
+subject: Finish the Rapid 215 and Make San Diego’s Busiest Bus Line Truly Rapid
 logo: bike_sd_square.jpg
 logo_url: https://bikesd.org
 to:
@@ -48,11 +48,9 @@ Lets tell city council and MTS to do something about it!
 
 Dear City Councilmembers, MTS Board Members, and SANDAG Leadership,
 
-I’m writing to urge immediate action to improve MTS Route 215—San Diego’s highest-ridership bus line and the closest thing we have to true rapid transit.
+I’m writing to urge urgent action to improve MTS Route 215—San Diego’s highest-ridership bus line and the closest thing we have to true rapid transit.
 
-The 215 is the backbone of transit for Mid-City, SDSU, and Downtown, connecting dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity. While parts of the corridor already include transit priority, the route remains too slow and unreliable because key rapid elements are incomplete or inconsistent.
-
-What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access.
+The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it’s still too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access.
 
 The 215 does not need to be reinvented. It needs to be finished.
 
