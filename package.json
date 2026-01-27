@@ -20,7 +20,7 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/svelte": "^5.3.1",
     "@typescript-eslint/eslint-plugin": "^8.53.1",
-    "@typescript-eslint/parser": "^8.53.0",
+    "@typescript-eslint/parser": "^8.54.0",
     "autoprefixer": "^10.4.23",
     "baseline-browser-mapping": "^2.9.17",
     "eslint": "^9.39.2",
