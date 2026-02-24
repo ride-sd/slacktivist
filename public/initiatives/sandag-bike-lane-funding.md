@@ -23,22 +23,23 @@ SANDAG recently presented a proposed project delivery strategy which withholds c
 
 Dear SANDAG Chair, Vice Chairs, Members, and Leadership,
 
-I am writing to express support for several bicycle and pedestrian projects originally approved in SANDAG’s 2013 Early Action Program. The proposed project delivery strategy details a path to completion for these key safety and mobility improvements, but they all must be fully funded through construction as the urgent need for these projects cannot be overstated; they must be the highest priority.
+Thank you for awarding the Construction contract for the Orange Bikeway! This critical project addresses SANDAG’s Safety Focus Network – 6% of the regional transportation network that accounts for 54% of fatal or serious injury crashes, and it closes critical gaps in the Regional Active Transportation Network along with the Central Bikeway.
 
-- Coastal Rail Trail Encinitas: F St to Santa Fe Dr
-- North Park/Mid-City Bikeways: Robinson Bikeway
-- Bayshore Bikeway: Barrio Logan
-- North Park/Mid-City Bikeways: Howard Bikeway
-- Uptown Bikeways: Mission Hills and Old Town Bikeways
-- Inland Rail Trail: Phase 4
 
-Another two EAP projects—Pacific Highway and South Bay to Southeastern—are missing from the project delivery strategy entirely and require a commitment from SANDAG to complete. All of these projects improve currently dangerous gaps where it’s unsafe to walk, drive, or ride. Without improvements people like me are forced to continue using these unsafe routes or dangerous alternatives that will result in preventable injuries and deaths.
+With those 2 projects in construction, I am writing to express support for the remaining 8 Early Action Program projects:
 
-After more than a decade, further delay is unacceptable. These projects are essential to advancing the region’s Vision Zero, Climate Action Plans, and mode-shift commitments. Without them, SANDAG cannot meet the safety, greenhouse gas reduction, and mobility outcomes it has pledged to deliver.
+1. Coastal Rail Trail Encinitas: E St to Chesterfield Dr
+2. North Park/Mid-City Bikeways: Robinson Bikeway
+3. Bayshore Bikeway: Barrio Logan
+4. North Park/Mid-City Bikeways: Howard Bikeway
+5. Uptown Bikeways: Mission Hills and Old Town Bikeways
+6. Inland Rail Trail: Phase 4
+7. South Bay to Southeastern
+8. Pacific Highway
 
-Every completed EAP project is reducing injuries and saving lives by providing safe and sustainable transportation alternatives. It’s exciting to see continued progress, but communities have been waiting since 2013 for these projects to safely connect. The FY 2027 budget must fully fund any shortfalls to complete these EAP projects.
+I want to ensure they are fully funded in the Fiscal Year 2027 budget with no “Holds” on phases or funding returned. The urgent need for these projects cannot be overstated; nearly all address the Safety Focus Network and fill dangerous gaps that currently discourage people from walking and biking.
 
-We respectfully request that SANDAG fully fund and prioritize delivery of these EAP projects.
+With amazing EAP progress in recent years, SANDAG must keep the momentum going with a Fiscal Year 2027 budget that fully funds any shortfalls to complete the remaining 8 EAP projects!
 
 Best,
 
