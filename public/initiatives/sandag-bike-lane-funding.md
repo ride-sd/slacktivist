@@ -1,6 +1,6 @@
 ---
 title: Ask SANDAG to Fund Uptown Bicycle Projects
-subject: "Request for Support: Funding and Delivery of EAP Projects Critical to Vision Zero & Climate Goals"
+subject: "Fund and Finish the Remaining 8 Early Action Projects"
 logo: bike_sd_square.jpg
 logo_url: https://bikesd.org
 to:
@@ -8,9 +8,9 @@ to:
   - lheebner@cosb.org
   - joelacava@sandiego.gov
   - cchavez@chulavistaca.gov
+  - ccontreras@vista.gov
   - lmolina@nationalcityca.gov
   - District1community@sdcounty.ca.gov
-  - kmelendez@vista.gov
 bcc:
   - campaigns@bikesd.org
 ---
