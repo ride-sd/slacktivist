@@ -299,40 +299,54 @@
           </svg>
           Copy to Clipboard
         </button>
-        <a
-          href={buildGmailLink({
-            to: metadata.to,
-            cc: metadata.cc,
-            bcc: metadata.bcc,
-            subject: metadata.subject,
-            body: editableContent
-          })}
-          class="btn-secondary flex items-center justify-center"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
-          </svg>
-          Send via Gmail
-        </a>
-        <a
-          href={buildMailtoLink({
-            to: metadata.to,
-            cc: metadata.cc,
-            bcc: metadata.bcc,
-            subject: metadata.subject,
-            body: editableContent
-          })}
-          class="btn-primary flex items-center justify-center flex-1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v10a2 2 0 002 2z"></path>
-          </svg>
-          Send via Email
-        </a>
+        {#if metadata.type === 'web_form'}
+          <a
+            href={metadata.form_url}
+            class="btn-primary flex items-center justify-center flex-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+            Submit via Web Form
+          </a>
+        {:else}
+          <a
+            href={buildGmailLink({
+              to: metadata.to,
+              cc: metadata.cc,
+              bcc: metadata.bcc,
+              subject: metadata.subject,
+              body: editableContent
+            })}
+            class="btn-secondary flex items-center justify-center"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+            </svg>
+            Send via Gmail
+          </a>
+          <a
+            href={buildMailtoLink({
+              to: metadata.to,
+              cc: metadata.cc,
+              bcc: metadata.bcc,
+              subject: metadata.subject,
+              body: editableContent
+            })}
+            class="btn-primary flex items-center justify-center flex-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 002 2v10a2 2 0 002 2z"></path>
+            </svg>
+            Send via Email
+          </a>
+        {/if}
       </div>
     </div>
   {/if}

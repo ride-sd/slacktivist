@@ -15,6 +15,24 @@ bcc:  # Optional: blind carbon copy recipients
   - "campaigns@organization.org"
 ---
 
+# Web Form Initiative (alternative type)
+# Use this frontmatter instead when comments must be submitted via a web form:
+#
+# ---
+# title: "Your Initiative Title Here"
+# description: "A brief, compelling description of what this initiative is about (1-2 sentences)"
+# type: web_form
+# form_url: "https://example.gov/comment-form"
+# deadline: "2024-12-31"
+# logo: "organization_logo.jpg"       # Optional
+# logo_url: "https://organization.org"  # Optional
+# ---
+#
+# For web_form initiatives:
+# - No `subject`, `to`, `cc`, or `bcc` fields are needed
+# - The Information section should include instructions on how to submit via the form
+# - Users will see only a "Copy to Clipboard" button and a "Submit via Web Form" link
+
 # Information
 
 Provide background information about the initiative here. This section helps users understand:
