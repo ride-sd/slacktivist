@@ -33,9 +33,18 @@ to:
   - MollyW@sandiego.gov
   - RosasM@sandiego.gov
   - Rosao@sandiego.gov
+  - chavezn@sandiego.gov
+  - mmccormick@sandiego.gov
+  - PlanningDirector@sandiego.gov
+  - TGalloway@sandiego.gov
+  - PTrom@sandiego.gov
+  - AIMartin@sandiego.gov
+  - ChaseJ@sandiego.gov
+  - AnishaLG@sandiego.gov
 bcc:
   - campaigns@bikesd.org
   - campaigns@ridesd.org
+  - kc@ridesd.org
 ---
 
 # Information
