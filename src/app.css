@@ -78,6 +78,27 @@
     @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-4 focus:ring-primary-200 focus:border-primary-500 transition-colors duration-200 resize-y min-h-[120px];
   }
 
+  /* Prose list styling (Tailwind preflight resets these) */
+  .prose ul {
+    @apply list-disc pl-6 my-4 space-y-1;
+  }
+
+  .prose ol {
+    @apply list-decimal pl-6 my-4 space-y-1;
+  }
+
+  .prose li {
+    @apply text-gray-700;
+  }
+
+  .prose p {
+    @apply my-4;
+  }
+
+  .prose h1, .prose h2, .prose h3 {
+    @apply font-bold text-gray-900 mt-6 mb-2;
+  }
+
   /* Prose link styling that matches the brand colors */
   .prose a {
     @apply font-semibold text-primary-600 decoration-2 decoration-primary-300 underline-offset-2 transition-all duration-200;
