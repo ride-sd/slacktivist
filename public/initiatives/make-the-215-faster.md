@@ -1,6 +1,6 @@
 ---
 title: Finish the Rapid 215
-subject: Finish the Rapid 215 and Make San Diego’s Busiest Bus Line Truly Rapid
+subject: You Have the Power to Speed Up the Rapid 215 — Act Now
 logo: bike_sd_square.jpg
 logo_url: https://bikesd.org
 to:
@@ -50,21 +50,27 @@ Dear City Councilmembers, MTS Board Members, and SANDAG Leadership,
 
 I’m writing to urge urgent action to improve MTS Route 215—San Diego’s highest-ridership bus line and the closest thing we have to true rapid transit.
 
-The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it’s still too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access.
+Right now, the current state of the Rapid 215 is a failure for transit riders.
 
-The 215 does not need to be reinvented. It needs to be finished.
+The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it remains too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access.
+
+The 215 does not need to be reinvented. It needs to be finished—and you have the power to do so.
+
+The City of San Diego can and should include funding in the Fiscal Year 2027 budget to extend continuous, red-painted bus-only lanes from Mid-City all the way to SDSU. This is a relatively low-cost, high-impact investment that would dramatically improve travel times and reliability for tens of thousands of daily riders.
+
+At the same time, MTS has the authority to make immediate operational improvements. MTS can upgrade the transit signal priority system so that buses always request priority—not just when running late—ensuring faster, more consistent trips. MTS can also implement all-door boarding along the corridor at very low cost, significantly reducing dwell times and speeding up service at every stop.
 
 We urge you to do the following:
 • Commit to a 30-minute end-to-end peak travel time, with clear performance targets and accountability.
-• Close every current bus-lane gap and restripe the corridor to NACTO standards so the 215 runs in continuous, red-painted, 24/7 bus-only lanes, supported by camera enforcement—ensuring the Rapid 215 never operates in mixed traffic.
-• Implement all-door boarding, as originally promised when the route was being planned, to reduce dwell time and speed up service at every stop.
-• Expand Transit Signal Priority (TSP) to every intersection that doesn’t have it, and make it always active and truly preemptive, so buses reliably move through signals instead of waiting through full cycles.
+• Close every current bus-lane gap and fully extend bus-only lanes to SDSU through the FY27 budget.
+• Implement all-door boarding to reduce dwell time and improve speed and reliability.
+• Upgrade Transit Signal Priority so it is always active and consistently prioritizes buses at every intersection.
 
-These are practical, proven upgrades that would immediately improve reliability and speed while advancing San Diego’s climate goals, equity commitments, and Vision Zero priorities. With low car ownership rates in Mid-City and among SDSU students, and major planning efforts already underway, the timing is right to finally deliver on the promise of the Rapid 215.
+These are practical, proven upgrades that would immediately improve reliability and speed while advancing San Diego’s climate goals, equity commitments, and Vision Zero priorities.
 
-San Diegans deserve a bus line that functions like rapid transit—not one that gets trapped in the same congestion as cars.
+San Diegans deserve a bus line that functions like rapid transit—not one that gets stuck in traffic and delayed at red lights.
 
-Thank you for your leadership, and I urge you to take action now to Finish the Rapid 215.
+Please do better for riders.
 
 Sincerely,
 
