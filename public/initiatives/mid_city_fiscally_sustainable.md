@@ -63,7 +63,7 @@ bcc:
 
 Mid-City is currently in the middle of a community plan update that will shape how the area develops for decades to come. While there are multiple existing preliminary proposals for how to rezone the area, none of them go far enough. This area has multiple high quality transit corridors, with more on the way, and as such deserves a planned land use that reflects that, and allows the area to grow both environmentally and fiscally sustainably. This new, community-created plan would much better accomplish this goal, and allow Mid-City to become truly fiscally self sufficient.
 
-![](../../src/assets/mid_city_slacktivist.png "Conceptual Map")
+!["Conceptual Map"](/assets/mid_city_slacktivist.png )
 # Content
 
 Subject: Support for the Community-Developed Distributed Growth Concept (Alternative 6)
