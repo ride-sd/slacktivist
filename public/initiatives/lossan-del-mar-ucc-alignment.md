@@ -43,7 +43,7 @@ bcc:
 
 The Del Mar bluffs are eroding - and the railroad tracks running along them could fall into the ocean within decades. SANDAG is currently deciding how to reroute the LOSSAN rail corridor (which carries Amtrak Pacific Surfliner, Coaster, and future commuter trains) away from the crumbling coastline.
 
-After years of study and millions of dollars spent evaluating five alignment options, one clear winner has emerged: the **Under Crest Canyon (UCC) alignment**, endorsed by [Californians for Electric Rail (CER)](https://calelectricrail.org) and transit advocacy groups including RideSD.
+After years of study and millions of dollars spent evaluating five alignment options, one clear winner has emerged: the **Under Crest Canyon (UCC) alignment**, endorsed by transit advocacy groups [Californians for Electric Rail (CER)](https://calelectricrail.org) and [RideSD](https://ridesd.org).
 
 **What is the UCC alignment?**
 The UCC alignment tunnels trains beneath Crest Canyon, keeping the track straight and underground. This avoids both the San Dieguito and Los Peñasquitos lagoons, minimizes surface disruption to Del Mar neighborhoods, and preserves the possibility of a Del Mar Fairgrounds station - a major hub that would serve hundreds of thousands of visitors each year.
