@@ -6,6 +6,7 @@ logo: cer.png
 logo_url: https://calelectricrail.org
 to:
   - clerkoftheboard@sandag.org
+  - LOSSANcomments@sandag.org
   - mario.orso@sandag.org
   - kevin.shin@carlsbadca.gov
   - cchavez@chulavistaca.gov
@@ -57,6 +58,7 @@ The UCC alignment tunnels trains beneath Crest Canyon, keeping the track straigh
 
 **What about the newly proposed Northern Yellow Line (NYL)?**
 A group calling itself SAFER has proposed a new "Northern Yellow Line" alternative, claiming it's safer and less disruptive. The facts don't support this:
+
 - The NYL's sharp curves are **more dangerous** at speed than UCC's straight path
 - The NYL does **not** include a Del Mar Fairgrounds station
 - The NYL's curves would make it **slower than today's alignment**, reducing ridership
