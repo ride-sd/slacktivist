@@ -43,14 +43,14 @@ bcc:
 
 The Del Mar bluffs are eroding - and the railroad tracks running along them could fall into the ocean within decades. SANDAG is currently deciding how to reroute the LOSSAN rail corridor (which carries Amtrak Pacific Surfliner, Coaster, and future commuter trains) away from the crumbling coastline.
 
-After years of study and millions of dollars spent evaluating five alignment options, one clear winner has emerged: the **Under Crest Canyon (UCC) alignment**, endorsed by both the [California Environmental Report (CER)](https://www.sandag.org) and transit advocacy groups including RideSD.
+After years of study and millions of dollars spent evaluating five alignment options, one clear winner has emerged: the **Under Crest Canyon (UCC) alignment**, endorsed by [Californians for Electric Rail (CER)](https://calelectricrail.org) and transit advocacy groups including RideSD.
 
 **What is the UCC alignment?**
 The UCC alignment tunnels trains beneath Crest Canyon, keeping the track straight and underground. This avoids both the San Dieguito and Los Peñasquitos lagoons, minimizes surface disruption to Del Mar neighborhoods, and preserves the possibility of a Del Mar Fairgrounds station - a major hub that would serve hundreds of thousands of visitors each year.
 
 **Why it matters:**
 - **Safety**: The straight alignment avoids the tight curves that would force slower speeds and increase derailment risk
-- **Speed & reliability**: Faster trains mean more riders, reducing cars on the already-congested I-5 freeway
+- **Speed & reliability**: The straight alignment supports speeds up to 110mph — faster trains mean more riders, reducing cars on the already-congested I-5 freeway
 - **Environment**: Routing underground avoids both lagoons and keeps open space intact
 - **Fairgrounds access**: A potential station at the Del Mar Fairgrounds would dramatically reduce traffic during events
 - **Electrification-ready**: Electric trains can operate in tunnels with sufficient clearances - this is a design choice independent of alignment
@@ -77,7 +77,7 @@ The LOSSAN corridor is the backbone of Southern California's passenger rail netw
 
 The UCC alignment is that solution. It is the right choice because it:
 
-- **Improves speed, capacity, and reliability** for every rider on the LOSSAN corridor - from San Diego commuters to Amtrak passengers traveling up the coast
+- **Improves speed, capacity, and reliability** for every rider on the LOSSAN corridor - the straight alignment supports speeds up to 110mph, benefiting San Diego commuters and Amtrak passengers traveling up the coast alike
 - **Preserves safety** by maintaining a straight alignment and avoiding the tight curves of alternatives like the Northern Yellow Line
 - **Minimizes environmental disruption** by routing trains underground, avoiding both the San Dieguito and Los Peñasquitos lagoons
 - **Preserves the option for a Del Mar Fairgrounds station**, reducing regional traffic congestion and improving access for hundreds of thousands of annual visitors
