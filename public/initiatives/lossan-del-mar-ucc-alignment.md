@@ -65,7 +65,7 @@ A group calling itself SAFER has proposed a new "Northern Yellow Line" alternati
 Every year of delay means higher costs, deferred benefits to riders, and growing risk that the existing tracks fall into the ocean. The time to act is now.
 
 **Learn more:**
-- [SANDAG LOSSAN Corridor Preservation Study](https://www.sandag.org/programs-and-projects/transit/lossan-corridor)
+- [San Diego LOSSAN Rail Realignment Project Post Value Analysis Study Assessment](https://www.sandag.org/-/media/SANDAG/Documents/PDF/projects-and-programs/featured-projects/lossan-rail-improvements-del-mar-bluffs/lossan-realignment/sandag-lossan-rail-realignment-post-value-analysis-study-assessment-2025-05-16.pdf)
 
 # Content
 
