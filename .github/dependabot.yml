@@ -4,6 +4,20 @@ updates:
   directory: "/"
   schedule:
     interval: daily
+  groups:
+    vite:
+      patterns:
+        - "vite"
+        - "@sveltejs/vite-plugin-svelte"
+    svelte:
+      patterns:
+        - "svelte"
+        - "svelte-check"
+        - "@tsconfig/svelte"
+    typescript:
+      patterns:
+        - "typescript"
+        - "tslib"
 - package-ecosystem: github-actions
   directory: "/"
   schedule:
