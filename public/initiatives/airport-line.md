@@ -62,14 +62,14 @@ Speed: Grade-separated tracks mean no stopping at traffic lights
 Capacity: Ability to move thousands of people per hour
 Reliability: Not impeded by car traffic, congestion, or other trolleys
 
-If we're investing huge sums intp transit infrastructure, we need to build something that isn't expected to just be a short shuttle. While downtown is a very big destination, it's not the only one. With luggage being challenging to carry around, one seat rides become far more important on airport lines, which is why it is a shame that none of the proposed concepts leave downtown.
+If we're investing huge sums into transit infrastructure, we need to build something that isn't expected to just be a short shuttle. While downtown is a very big destination, it's not the only one. With luggage being challenging to carry around, one seat rides become far more important on airport lines, which is why it is a shame that none of the proposed concepts leave downtown.
 
 There is a convenient corridor for an APM to extend down: Market St.
-Market St is a dense and underserved corridor with a large and convenient median to place an elevated APM upon. It can run all the way to Euclid Ave, where it would have an interchange with the Orange and Purple Lines. This would vastly open up the reach of the Airport Line, enabling many trips that would otherwise be inconvenient, all while boosting transit accessability to dense, low-income neighborhoods that depond upon it.
+Market St is a dense and underserved corridor with a large and convenient median to place an elevated APM upon. It can run all the way to Euclid Ave, where it would have an interchange with the Orange and Purple Lines. This would vastly open up the reach of the Airport Line, enabling many trips that would otherwise be inconvenient, all while boosting transit accessibility to dense, low-income neighborhoods that depend upon it.
 
 My Ask:
 
-Please commit to an APM to avoid the pitfalls of further interlining the Trolley. San Diego deserves a transit system that plans for the future, not one that cripples itself to save a buck. APMs have advantages in frequency, grade-separation, and scalability. Additionally, explore a routing that takes the APM past downtown! Market St is an obvious corridor, with Euclid Ave serving as a very natural terminus. It makes no sense that it has never even be studied. This would make a lot of one and two seat rides possible, strongly increasing the Airport Line's utility. 
+Please commit to an APM to avoid the pitfalls of further interlining the Trolley. San Diego deserves a transit system that plans for the future, not one that cripples itself to save a buck. APMs have advantages in frequency, grade-separation, and scalability. Additionally, explore a routing that takes the APM past downtown! Market St is an obvious corridor, with Euclid Ave serving as a very natural terminus. It makes no sense that it has never even been studied. This would make a lot of one and two seat rides possible, strongly increasing the Airport Line's utility. 
 
 I am committed to staying engaged on this issue and hope SANDAG will make the right choices about the mode and routing of the Airport Line.
 
