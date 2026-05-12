@@ -31,7 +31,7 @@
     "marked": "^17.0.4",
     "postcss": "^8.5.8",
     "svelte": "^5.53.9",
-    "vite": "^7.3.1",
+    "vite": "^8.0.12",
     "vitest": "^4.0.18"
   },
   "dependencies": {
