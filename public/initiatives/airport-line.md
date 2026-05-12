@@ -69,7 +69,7 @@ Market St is a dense and underserved corridor with a large and convenient median
 
 My Ask:
 
-Please commit to an APM to avoid the pitfalls of further interlining the Trolley. San Diego deserves a transit system that plans for the future, not one that cripples itself to save a buck. APMs have advantages in frequency, grade-separation, and scalability. Additionally, explore a routing that takes the APM past downtown! Market St is an obvious corridor, with Euclid Ave serving as a very natural terminus. It makes no sense that it has never even be studied. This would make a lot of one and two seat rides possible, strongly increasing the Airport Line's utility. 
+Please commit to an APM to avoid the pitfalls of further interlining the Trolley. San Diego deserves a transit system that plans for the future, not one that cripples itself to save a buck. APMs have advantages in frequency, grade-separation, and scalability. Additionally, explore a routing that takes the APM past downtown! Market St is an obvious corridor, with Euclid Ave serving as a very natural terminus. It makes no sense that it has never even been studied. This would make a lot of one and two seat rides possible, strongly increasing the Airport Line's utility. 
 
 I am committed to staying engaged on this issue and hope SANDAG will make the right choices about the mode and routing of the Airport Line.
 
