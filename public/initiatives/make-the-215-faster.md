@@ -1,9 +1,14 @@
 ---
 title: Finish the Rapid 215
-subject: You Have the Power to Speed Up the Rapid 215 — Act Now
+subject: You Have the Power to Speed Up the Rapid 215 — Act Now!
 logo: bike_sd_square.jpg
 logo_url: https://bikesd.org
 to:
+ 
+bcc:
+  - campaigns@bikesd.org
+  - campaigns@ridesd.org
+  - kc@ridesd.org
   - RWilde@sandiego.gov
   - MayorToddGloria@sandiego.gov
   - ERHauser@sandiego.gov
@@ -41,10 +46,26 @@ to:
   - AIMartin@sandiego.gov
   - ChaseJ@sandiego.gov
   - AnishaLG@sandiego.gov
-bcc:
-  - campaigns@bikesd.org
-  - campaigns@ridesd.org
-  - kc@ridesd.org
+  - KMcfadden@sandiego.gov
+  - rcharvel@sandiego.gov
+  - bjbezak@sandiego.gov
+  - raniaamen@sandiego.gov
+  - CDSmith@sandiego.gov
+  - NSSerrano@sandiego.gov
+  - DRolland@sandiego.gov
+  - KMorlan@sandiego.gov
+  - WBishop@sandiego.gov
+  - cackermanavi@sandiego.gov
+  - ZaiserK@sandiego.gov
+  - epiatanesi@sandiego.gov
+  - ASoriaRojas@sandiego.gov
+  - ChavezG@sandiego.gov
+  - street_service@sandiego.gov
+  - planning@sandiego.gov
+  - engineering@sandiego.gov
+  - sdiba@sandiego.gov
+  - rmalone@sandiego.gov
+  - AIMartin@sandiego.gov
 ---
 
 # Information
@@ -57,17 +78,17 @@ Lets tell city council and MTS to do something about it!
 
 Dear City Councilmembers, MTS Board Members, and SANDAG Leadership,
 
-I’m writing to urge urgent action to improve MTS Route 215—San Diego’s highest-ridership bus line and the closest thing we have to true rapid transit.
+I’m writing to urge urgent action to improve MTS Route 215, San Diego’s highest-ridership bus line and the closest thing we have to true bus rapid transit.
 
 Right now, the current state of the Rapid 215 is a failure for transit riders.
 
-The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it remains too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access.
+The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it remains too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access. This is a faliure for transit riders. 
 
 The 215 does not need to be reinvented. It needs to be finished—and you have the power to do so.
 
 The City of San Diego can and should include funding in the Fiscal Year 2027 budget to extend continuous, red-painted bus-only lanes from Mid-City all the way to SDSU. This is a relatively low-cost, high-impact investment that would dramatically improve travel times and reliability for tens of thousands of daily riders.
 
-At the same time, MTS has the authority to make immediate operational improvements. MTS can upgrade the transit signal priority system so that buses always request priority—not just when running late—ensuring faster, more consistent trips. MTS can also implement all-door boarding along the corridor at very low cost, significantly reducing dwell times and speeding up service at every stop.
+At the same time, MTS has the authority to make immediate operational improvements. MTS can upgrade the transit signal priority system so that buses always request priority—not just when running late—ensuring faster, more consistent trips. The city of San Diego's Transportation Department has confirmed this. MTS can also implement all-door boarding along the corridor at very low cost, significantly reducing dwell times and speeding up service at every stop.
 
 We urge you to do the following:
 • Commit to a 30-minute end-to-end peak travel time, with clear performance targets and accountability.
