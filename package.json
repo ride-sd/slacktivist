@@ -29,7 +29,7 @@
     "gray-matter": "^4.0.3",
     "jsdom": "^28.0.0",
     "marked": "^18.0.5",
-    "postcss": "^8.5.8",
+    "postcss": "^8.5.16",
     "svelte": "^5.56.4",
     "vite": "^8.1.0",
     "vitest": "^4.1.9"
