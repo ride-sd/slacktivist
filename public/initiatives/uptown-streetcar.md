@@ -2,8 +2,6 @@
 title: Deprioritize the Uptown Streetcar and Fund Better Projects!
 description: Help push SANDAG to reallocate Uptown Streetcar money to projects that are far more important and offer higher value.
 subject: Deprioritizing the Uptown/Balboa Park Perimeter Streetcar
-logo: ride_sd_full.png
-logo_url: https://www.ridesd.org
 to:
   - clerkoftheboard@sandag.org
   - mario.orso@sandag.org
@@ -35,7 +33,7 @@ to:
 cc:
   - regionalplan@sandag.org
 bcc:
-  - campaigns@ridesd.org
+  - samtransityt@gmail.com
 ---
 
 # Information
