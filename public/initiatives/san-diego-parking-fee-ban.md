@@ -11,6 +11,7 @@ to:
   - "SeanEloRivera@sandiego.gov"
 bcc:
   - "campaigns@ridesd.org"
+  - "campaigns@bikesd.org"
 ---
 
 # Information
