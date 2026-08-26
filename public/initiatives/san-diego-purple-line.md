@@ -31,7 +31,6 @@ cc:
   - purpleline@sandag.org
 bcc:
   - campaigns@ridesd.org
-  - campaigns@bikesd.org
 ---
 
 # Information
