@@ -45,6 +45,7 @@ bcc:
   - campaigns@bikesd.org
   - campaigns@ridesd.org
   - kc@ridesd.org
+  - info@sdtransitdems.com
 ---
 
 # Information
