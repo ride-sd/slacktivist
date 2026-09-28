@@ -1,7 +1,7 @@
 ---
 title: Prioritize Transit in the Mid-City Communities Plan Update
 subject: You Can Boost Transit In Mid-City — Act Now
-logo: ride_sd_square.jpg
+logo: ride_sd_full.png
 logo_url: https://ridesd.org
 to:
   - PlanMidCity@sandiego.gov
