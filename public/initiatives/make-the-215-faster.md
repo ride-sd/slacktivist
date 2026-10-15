@@ -62,7 +62,7 @@ I’m writing to urge urgent action to improve MTS Route 215—San Diego’s hig
 
 Right now, the current state of the Rapid 215 is a failure for transit riders.
 
-The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it remains too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. What was once envisioned as an approximately 30-minute end-to-end rapid route now routinely takes closer to 50 minutes, costing riders time, dignity, and access.
+The 215 is the transit lifeline for Mid-City, SDSU, and Downtown, linking dense, historically underserved communities along El Cajon Blvd to jobs, school, healthcare, and opportunity—but even with some transit priority in place, it remains too slow and unreliable because the most important rapid features are incomplete or inconsistently implemented. An end-to-end trip on a route branded as "Rapid" routinely takes close to 50 minutes, costing riders time, dignity, and access.
 
 The 215 does not need to be reinvented. It needs to be finished—and you have the power to do so.
 
@@ -71,7 +71,7 @@ The City of San Diego can and should include funding in the Fiscal Year 2027 bud
 At the same time, MTS has the authority to make immediate operational improvements. MTS can upgrade the transit signal priority system so that buses always request priority—not just when running late—ensuring faster, more consistent trips. MTS can also implement all-door boarding along the corridor at very low cost, significantly reducing dwell times and speeding up service at every stop.
 
 We urge you to do the following:
-• Commit to a 30-minute end-to-end peak travel time, with clear performance targets and accountability.
+• Set an ambitious target to substantially cut end-to-end peak travel time, with clear performance metrics, public reporting, and accountability.
 • Close every current bus-lane gap and fully extend bus-only lanes to SDSU through the FY27 budget.
 • Implement all-door boarding to reduce dwell time and improve speed and reliability.
 • Upgrade Transit Signal Priority so it is always active and consistently prioritizes buses at every intersection.
