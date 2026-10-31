@@ -3,8 +3,6 @@ title: Ask the City & SANDAG to Reapply for Mission Hills & Old Town Complete St
 description: SANDAG returned $1 million in funding for the Mission Hills & Old Town Complete Streets Project instead of finishing a decade-old design — tell leaders to reapply before the November 20 deadline.
 subject: "Dangerous Delays to Mission Hills & Old Town Complete Streets Project"
 deadline: "2026-11-20"
-logo: our_mission_hills.png
-logo_url: https://www.ourmissionhills.org
 to:
   - mario.orso@sandag.org
   - lheebner@cosb.org
