@@ -25,7 +25,6 @@ to:
   - senator@padilla.senate.gov
   - senator@schiff.senate.gov
 bcc:
-  - campaigns@bikesd.org
   - donatemhcp@gmail.com
 ---
 
