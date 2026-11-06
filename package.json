@@ -38,6 +38,6 @@
     "@tailwindcss/postcss": "^4.3.3",
     "handlebars": "^4.7.10",
     "svelte-routing": "^2.13.0",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.4"
   }
 }
